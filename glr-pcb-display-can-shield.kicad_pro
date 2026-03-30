@@ -1,6 +1,45 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "Back",
+        "ww": 1.0,
+        "wx": 14.889455795288086,
+        "wy": 17.48347282409668,
+        "wz": -28.03426742553711,
+        "xw": 0.0,
+        "xx": -0.9396926760673523,
+        "xy": -0.296311616897583,
+        "xz": 0.17081311345100403,
+        "yw": 0.0,
+        "yx": -0.3420199453830719,
+        "yy": 0.8137949109077454,
+        "yz": -0.4698513150215149,
+        "zw": 0.0,
+        "zx": 0.00021555693820118904,
+        "zy": -0.49993735551834106,
+        "zz": -0.8660615682601929
+      },
+      {
+        "name": "Front",
+        "ww": 1.0,
+        "wx": -22.66990089416504,
+        "wy": 5.641530990600586,
+        "wz": -21.20415496826172,
+        "xw": 0.0,
+        "xx": 0.9396926760673523,
+        "xy": 0.2962324619293213,
+        "xz": -0.17095018923282623,
+        "yw": 0.0,
+        "yx": -0.3420199453830719,
+        "yy": 0.8137949109077454,
+        "yz": -0.4698513150215149,
+        "zw": 0.0,
+        "zx": -6.681666127406061e-05,
+        "zy": 0.4999842345714569,
+        "zz": 0.8660345077514648
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -466,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "glr-2024e-display-can-shield.kicad_pro",
+    "filename": "glr-pcb-display-can-shield.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -505,7 +544,7 @@
       "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "output/glr-2024e-display-can-shield.step",
+      "step": "output/glr-pcb-display-can-shield.step",
       "svg": "",
       "vrml": ""
     },

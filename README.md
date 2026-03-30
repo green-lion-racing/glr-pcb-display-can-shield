@@ -2,7 +2,12 @@
 
 STM32F469I-DISCO board compatible CAN shield.
 
-### Overview
+<p float="left">
+  <img src="img/glr-pcb-display-can-shield-front.png" width="49%" />
+  <img src="img/glr-pcb-display-can-shield-back.png" width="49%" />
+</p>
+
+## Overview
 
 Provides 8V for the discovery board, from 12V car voltage.
 
@@ -12,7 +17,7 @@ Accessible screw terminals for buttons signals to the discovery board.
 
 Can be directly slotted on to the board.
 
-### Used parts
+## Used parts
 
 | Article                          | Description                 | Link                                                                                                          | Quantity |
 | -------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------- | -------- |

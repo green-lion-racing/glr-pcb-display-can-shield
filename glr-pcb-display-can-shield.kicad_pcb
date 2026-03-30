@@ -222,7 +222,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/375e61a9-fa22-4061-88a4-c3bffd9ea374")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -584,7 +584,7 @@
 		)
 		(path "/2eebabe1-2d2e-4981-a20b-e71700d2dff3")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 6.6 2.3)
@@ -817,7 +817,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/46dd9a42-5fb2-475e-97c7-24e5666698ec")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -1298,7 +1298,7 @@
 		)
 		(path "/188534e5-d7ea-464f-9a85-86cceebcea34")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.425 -0.75)
@@ -1477,7 +1477,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/f375eff0-f19b-42c8-9455-43e6ec6c54b8")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 40 3.561756)
@@ -1740,7 +1740,7 @@
 		)
 		(path "/723b4eda-40ec-4778-a6ee-b6be70fe29c5")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 -1.5)
@@ -2053,7 +2053,7 @@
 		)
 		(path "/0a6e13a5-b38c-46c9-8ae5-1b06eb223f18")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.225 -0.62)
@@ -2235,7 +2235,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b003cab5-7c45-46ab-acdf-bcad1a37bb45")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -2619,7 +2619,7 @@
 		)
 		(path "/bbe527bc-6c89-44b7-a7af-a9240e906974")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.425 -0.75)
@@ -2798,7 +2798,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/110adbc9-613c-42ce-bab6-bfe96c9545cf")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.438244 0)
@@ -3043,7 +3043,7 @@
 		)
 		(path "/428a3301-acd0-4a58-b92d-148026780c11")
 		(sheetname "Root")
-		(sheetfile "glr-2024e-display-can-shield.kicad_sch")
+		(sheetfile "glr-pcb-display-can-shield.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.475 -2.58)

@@ -721,6 +721,10 @@
     [
       "3ec1d028-83c5-460a-a6b1-0c7e981bb79c",
       "Root"
+    ],
+    [
+      "f8c48426-ced6-47ab-a8c2-b3fb09107901",
+      "CAN transciever"
     ]
   ],
   "text_variables": {}

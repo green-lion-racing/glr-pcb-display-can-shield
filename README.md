@@ -9,7 +9,7 @@ STM32F469I-DISCO board compatible CAN shield.
 
 ## Overview
 
-Provides 8V for the discovery board, from 12V car voltage.
+Provides 8V for the discovery board, from 24V car voltage.
 
 Acts as can transciever for the discovery board.
 
@@ -31,3 +31,41 @@ Can be directly slotted on to the board.
 | Generic header                   | 8-pin header 2.54mm         |                                                                                                               | 1        |
 | Generic header                   | 6-pin header 2.54mm         |                                                                                                               | 1        |
 | Generic socket                   | 2x8-pin socket 2.54mm       |                                                                                                               | 1        |
+
+## Used pins and their connector
+
+| Element | Chip Pin | Connector Pin |
+| ------- | -------- | ------------- |
+| 5V      | -        | CN6 Pin 5     |
+| GND     | -        | CN6 Pin 6,7   |
+| 8V IN   | -        | CN6 Pin 8     |
+
+### Button 1-6
+
+| Element  | Chip Pin | Connector Pin |
+| -------- | -------- | ------------- |
+| Button 1 | PB1      | CN8 Pin 1     |
+| Button 2 | PC4      | CN8 Pin 4     |
+| Button 3 | PC5      | CN8 Pin 5     |
+| Button 4 | PA4      | CN8 Pin 6     |
+| Button 5 | PD3      | CN5 Pin 6     |
+| Button 6 | PB14     | CN5 Pin 5     |
+
+### Rotary Encoder 1-2
+
+| Element              | Chip Pin | Connector Pin |
+| -------------------- | -------- | ------------- |
+| Rotary Encoder 1 CLK | PB15     | CN5 Pin 4     |
+| Rotary Encoder 1 DT  | PH6      | CN5 Pin 3     |
+| Rotary Encoder 1 SW  | PA7      | CN5 Pin 2     |
+| Rotary Encoder 2 CLK | PG13     | CN7 Pin 3     |
+| Rotary Encoder 2 DT  | PG14     | CN7 Pin 2     |
+| Rotary Encoder 2 SW  | PG9      | CN7 Pin 1     |
+
+### Potentiometer 1-3
+
+| Element         | Chip Pin | Connector Pin |
+| --------------- | -------- | ------------- |
+| Potentiometer 1 | PA8      | CN12 Pin 3    |
+| Potentiometer 2 | PB4      | CN12 Pin 5    |
+| Potentiometer 3 | PC6      | CN12 Pin 6    |

@@ -9,7 +9,7 @@ STM32F469I-DISCO board compatible CAN shield.
 
 ## Overview
 
-Provides 8V for the discovery board, from 12V car voltage.
+Provides 8V for the discovery board, from 24V car voltage.
 
 Acts as can transciever for the discovery board.
 
@@ -31,3 +31,48 @@ Can be directly slotted on to the board.
 | Generic header                   | 8-pin header 2.54mm         |                                                                                                               | 1        |
 | Generic header                   | 6-pin header 2.54mm         |                                                                                                               | 1        |
 | Generic socket                   | 2x8-pin socket 2.54mm       |                                                                                                               | 1        |
+
+## Used pins and their connector
+
+| Element | Chip Pin | Connector Pin |
+| ------- | -------- | ------------- |
+| 5V      | -        | CN6 Pin 5     |
+| GND     | -        | CN6 Pin 6,7   |
+| 8V IN   | -        | CN6 Pin 8     |
+
+### Button 1-6
+
+| Element  | Chip Pin | Connector Pin |
+| -------- | -------- | ------------- |
+| Button 1 | PB1      | CN8 Pin 1     |
+| Button 2 | PC4      | CN8 Pin 4     |
+| Button 3 | PC5      | CN8 Pin 5     |
+| Button 4 | PA4      | CN8 Pin 6     |
+| Button 5 | PD3      | CN5 Pin 6     |
+| Button 6 | PB14     | CN5 Pin 5     |
+
+### Incremental Rotary Encoder 1-2
+
+| Element                   | Chip Pin | Connector Pin |
+| ------------------------- | -------- | ------------- |
+| Incremental Encoder 1 CLK | PB15     | CN5 Pin 4     |
+| Incremental Encoder 1 DT  | PH6      | CN5 Pin 3     |
+| Incremental Encoder 1 SW  | PA7      | CN5 Pin 2     |
+| Incremental Encoder 2 CLK | PG13     | CN7 Pin 3     |
+| Incremental Encoder 2 DT  | PG14     | CN7 Pin 2     |
+| Incremental Encoder 2 SW  | PG9      | CN7 Pin 1     |
+
+### Absolute Rotary Encoder 1-3
+
+| Element               | Chip Pin | Connector Pin |
+| --------------------- | -------- | ------------- |
+| Absolute Encoder 1 P1 | PA8      | CN12 Pin 3    |
+| Absolute Encoder 1 P2 | PB4      | CN12 Pin 5    |
+| Absolute Encoder 1 P3 | PC6      | CN12 Pin 6    |
+| Absolute Encoder 2 P1 | PA8      | CN12 Pin 7    |
+| Absolute Encoder 2 P2 | PA5      | CN12 Pin 8    |
+| Absolute Encoder 2 P3 | PC7      | CN12 Pin 11   |
+| Absolute Encoder 3 P1 | PA15     | CN12 Pin 12   |
+| Absolute Encoder 3 P2 | PB12     | CN12 Pin 13   |
+| Absolute Encoder 3 P3 | PC13     | CN12 Pin 14   |
+| Absolute Encoder 3 P4 | PC1      | CN12 Pin 15   |

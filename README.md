@@ -51,21 +51,28 @@ Can be directly slotted on to the board.
 | Button 5 | PD3      | CN5 Pin 6     |
 | Button 6 | PB14     | CN5 Pin 5     |
 
-### Rotary Encoder 1-2
+### Incremental Rotary Encoder 1-2
 
-| Element              | Chip Pin | Connector Pin |
-| -------------------- | -------- | ------------- |
-| Rotary Encoder 1 CLK | PB15     | CN5 Pin 4     |
-| Rotary Encoder 1 DT  | PH6      | CN5 Pin 3     |
-| Rotary Encoder 1 SW  | PA7      | CN5 Pin 2     |
-| Rotary Encoder 2 CLK | PG13     | CN7 Pin 3     |
-| Rotary Encoder 2 DT  | PG14     | CN7 Pin 2     |
-| Rotary Encoder 2 SW  | PG9      | CN7 Pin 1     |
+| Element                   | Chip Pin | Connector Pin |
+| ------------------------- | -------- | ------------- |
+| Incremental Encoder 1 CLK | PB15     | CN5 Pin 4     |
+| Incremental Encoder 1 DT  | PH6      | CN5 Pin 3     |
+| Incremental Encoder 1 SW  | PA7      | CN5 Pin 2     |
+| Incremental Encoder 2 CLK | PG13     | CN7 Pin 3     |
+| Incremental Encoder 2 DT  | PG14     | CN7 Pin 2     |
+| Incremental Encoder 2 SW  | PG9      | CN7 Pin 1     |
 
-### Potentiometer 1-3
+### Absolute Rotary Encoder 1-3
 
-| Element         | Chip Pin | Connector Pin |
-| --------------- | -------- | ------------- |
-| Potentiometer 1 | PA8      | CN12 Pin 3    |
-| Potentiometer 2 | PB4      | CN12 Pin 5    |
-| Potentiometer 3 | PC6      | CN12 Pin 6    |
+| Element               | Chip Pin | Connector Pin |
+| --------------------- | -------- | ------------- |
+| Absolute Encoder 1 P1 | PA8      | CN12 Pin 3    |
+| Absolute Encoder 1 P2 | PB4      | CN12 Pin 5    |
+| Absolute Encoder 1 P3 | PC6      | CN12 Pin 6    |
+| Absolute Encoder 2 P1 | PA8      | CN12 Pin 7    |
+| Absolute Encoder 2 P2 | PA5      | CN12 Pin 8    |
+| Absolute Encoder 2 P3 | PC7      | CN12 Pin 11   |
+| Absolute Encoder 3 P1 | PA15     | CN12 Pin 12   |
+| Absolute Encoder 3 P2 | PB12     | CN12 Pin 13   |
+| Absolute Encoder 3 P3 | PC13     | CN12 Pin 14   |
+| Absolute Encoder 3 P4 | PC1      | CN12 Pin 15   |

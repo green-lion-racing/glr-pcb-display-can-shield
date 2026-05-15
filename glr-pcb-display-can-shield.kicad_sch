@@ -6750,7 +6750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RBT05W24S6V5"
+		(property "Footprint" "SamacSys_Parts:RBT05W24S6V5"
 			(at 238.76 221.92 0)
 			(hide yes)
 			(show_name no)

@@ -10,7 +10,7 @@
 	(title_block
 		(title "CAN-Shield for STM32F469I-DISCO")
 		(date "${CURRENT_DATE}")
-		(rev "v3")
+		(rev "v4")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
 		(comment 2 "Based on previous STM32 Canshield from 2019")

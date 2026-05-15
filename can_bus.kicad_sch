@@ -2534,7 +2534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d8d7484-3ad8-4108-90ee-df6de05960b3")
-		(property "Reference" "C27"
+		(property "Reference" "C11"
 			(at 195.58 86.3535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2658,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C27")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2833,7 +2833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ea54fc5-49eb-42e6-91ff-c1dbeef5532a")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 130.81 100.3235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +2957,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3053,7 +3053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ae9366-3a24-436d-9993-05bcbd249843")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 83.82 91.4335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,7 +3177,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3194,7 +3194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b254913-79a9-4515-9de0-b25f272edd48")
-		(property "Reference" "C28"
+		(property "Reference" "C12"
 			(at 195.58 96.5135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +3318,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C28")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3336,7 +3336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70fa6f20-413f-4053-9490-246b1ccb48b3")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 167.64 96.5135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3460,7 +3460,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51c5a8d-a54f-46a4-abd7-540752434d2b")
-		(property "Reference" "C26"
+		(property "Reference" "C9"
 			(at 167.64 86.3535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,7 +3690,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C26")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3865,7 +3865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5d053b4-4b3e-4fb0-a089-9500b6cda763")
-		(property "Reference" "IC3"
+		(property "Reference" "IC2"
 			(at 111.76 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4007,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "IC3")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -4025,7 +4025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbec6827-7f3e-4464-93f1-f7b5a6311eb4")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 160.0136 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4147,7 +4147,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4165,7 +4165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbfd5328-7b42-4703-bc80-14bfd23da6c5")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 152.4 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4289,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4306,7 +4306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdf542fe-c647-4560-9627-116d0435ccb8")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 216.662 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,7 +4431,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1cf624d-7903-42cf-9f94-ca1a4ed750fa")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 152.4 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4730,7 +4730,7 @@
 		(instances
 			(project "glr-pcb-display-can-shield"
 				(path "/3ec1d028-83c5-460a-a6b1-0c7e981bb79c/f8c48426-ced6-47ab-a8c2-b3fb09107901"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)

@@ -580,7 +580,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "output\\glr-pcb-all2can-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -696,13 +696,61 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vout (V)",
+          "name": "Vout (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bürklin Part Number",
+          "name": "Bürklin Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bürklin Price/Stock",
+          "name": "Bürklin Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Iout (A)",
+          "name": "Iout (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vin (V)",
+          "name": "Vin (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WuerthElektronik",
+          "name": "WuerthElektronik",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DiggiKey",
+          "name": "DiggiKey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "bus_aliases": {},
@@ -754,7 +802,7 @@
         "uuid": "3ec1d028-83c5-460a-a6b1-0c7e981bb79c"
       }
     ],
-    "used_designators": "D1,L1,L3,#PWR50-51,#PWR62,C1-12,C16-17,C31,R1-5,R20-22,IC1-2,IC6,FL1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

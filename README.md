@@ -9,7 +9,7 @@ STM32F469I-DISCO board compatible CAN shield.
 
 ## Overview
 
-Provides 8V for the discovery board, from 12V car voltage.
+Provides 8V for the discovery board, from 24V car voltage.
 
 Acts as can transciever for the discovery board.
 
@@ -19,15 +19,71 @@ Can be directly slotted on to the board.
 
 ## Used parts
 
-| Article                          | Description                 | Link                                                                                                          | Quantity |
-| -------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
-| STMircoelectronics L9615D013TR   | 12V can transiever          | https://www.mouser.de/ProductDetail/STMicroelectronics/L9615D013TR?qs=RNlBCa%2FBPH2bRRygw50SdQ%3D%3D          | 1        |
-| STMicroelectronics LF80CDT-TR    | voltage regulator 12V -> 8V | https://www.mouser.de/ProductDetail/STMicroelectronics/LF80CDT-TR?qs=jjdktuRV%2FggWfgmU%252Bn%252BoRA%3D%3D   | 1        |
-| STMicroelectronics ESDCAN01-2BLY | dual-line TVS diode         | https://www.mouser.de/ProductDetail/STMicroelectronics/ESDCAN01-2BLY?qs=Ok1pvOkw6%2FpNzC2RQnWwPA%3D%3D        | 1        |
-| Samsung CL10B104KB8NNNC          | capacitor 100nF             | https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B104KB8NNNC?qs=349EhDEZ59rvGc2rLwVOdA%3D%3D | 2        |
-| Vishay CRCW060368R1FKEA          | resistor 68ohm              | https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW060368R1FKEA?qs=6z8JnUK2jyMngsBXu5il1A%3D%3D              | 1        |
-| WECO 950-FB-04                   | 4-pin screw terminal        | https://www.buerklin.com/de/p/weco/leiterplattenklemmen/20877004/08H410/                                      | 1        |
-| WECO 950-FB-08                   | 8-pin screw terminal        | https://www.buerklin.com/de/p/weco/leiterplattenklemmen/20877008/08H420/                                      | 1        |
-| Generic header                   | 8-pin header 2.54mm         |                                                                                                               | 1        |
-| Generic header                   | 6-pin header 2.54mm         |                                                                                                               | 1        |
-| Generic socket                   | 2x8-pin socket 2.54mm       |                                                                                                               | 1        |
+Exported from KiCad BOM. View there for more details.
+
+| DigiKey                   | WuerthElektronik | Reference         | Footprint                                                  | Qty |
+|---------------------------|------------------|-------------------|------------------------------------------------------------|-----|
+| 541-60.4HCT-ND            |                  | R4,R5             | Resistor_SMD:R_0603_1608Metric                             | 2   |
+| 311-22.1KHRCT-ND          |                  | R3                | Resistor_SMD:R_0603_1608Metric                             | 1   |
+| P200KDBCT-ND              |                  | R2                | Resistor_SMD:R_0603_1608Metric                             | 1   |
+| 311-10.0KHRCT-ND          |                  | R1                | Resistor_SMD:R_0603_1608Metric                             | 1   |
+| 732-74479889310CT-ND      | 74479889310      | L1                | Inductor_SMD:L_1008_2520Metric                             | 1   |
+| 732-61802525023-ND        | 61802525023      | J2                | Connector_Dsub:DSUB-25_Socket_Vertical_P2.77x2.84mm        | 1   |
+| 732-643250100304-ND       | 643250100304     | J1                | GLR_KiCad_Library:M12A-04P                                 | 1   |
+| ATA6561-GAQW-NCT-ND       |                  | IC2               | SamacSys_Parts:SOIC127P600X175-8N                          | 1   |
+| 31-AP64060QWU-7CT-ND      |                  | IC1               | SamacSys_Parts:SOT95P280X100-6N                            | 1   |
+| 732-7290-1-ND             | 744235510        | FL1               | SamacSys_Parts:744235510                                   | 1   |
+| 497-15333-1-ND            |                  | D1                | SamacSys_Parts:SOT95P255X125-3N                            | 1   |
+| 732-5299-ND               | 61301621121      | CN12              | Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical | 1   |
+| 732-5319-ND               | 61300611121      | CN8               | Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical | 1   |
+| 732-5321-ND               | 61300811121      | CN6,CN7           | Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical | 2   |
+| 732-2670-ND               | 61301011121      | CN5               | Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical | 1   |
+| 490-1427-1-ND             |                  | C9,C10,C11,C12    | Capacitor_SMD:C_0603_1608Metric                            | 4   |
+| 399-C0603C105K4RACTUCT-ND |                  | C4                | Capacitor_SMD:C_0603_1608Metric                            | 1   |
+| 399-C0603C104K3RACTUCT-ND |                  | C2,C3,C5,C6,C7,C8 | Capacitor_SMD:C_0603_1608Metric                            | 6   |
+| 1276-1040-1-ND            |                  | C1                | Capacitor_SMD:C_0603_1608Metric                            | 1   |
+
+## Used pins and their connector
+
+| Element | Chip Pin | Connector Pin |
+| ------- | -------- | ------------- |
+| 5V      | -        | CN6 Pin 5     |
+| GND     | -        | CN6 Pin 6,7   |
+| 8V IN   | -        | CN6 Pin 8     |
+
+### Button 1-6
+
+| Element  | Chip Pin | Connector Pin |
+| -------- | -------- | ------------- |
+| Button 1 | PB1      | CN8 Pin 1     |
+| Button 2 | PC4      | CN8 Pin 4     |
+| Button 3 | PC5      | CN8 Pin 5     |
+| Button 4 | PA4      | CN8 Pin 6     |
+| Button 5 | PD3      | CN5 Pin 6     |
+| Button 6 | PB14     | CN5 Pin 5     |
+
+### Incremental Rotary Encoder 1-2
+
+| Element                   | Chip Pin | Connector Pin |
+| ------------------------- | -------- | ------------- |
+| Incremental Encoder 1 CLK | PB15     | CN5 Pin 4     |
+| Incremental Encoder 1 DT  | PH6      | CN5 Pin 3     |
+| Incremental Encoder 1 SW  | PA7      | CN5 Pin 2     |
+| Incremental Encoder 2 CLK | PG13     | CN7 Pin 3     |
+| Incremental Encoder 2 DT  | PG14     | CN7 Pin 2     |
+| Incremental Encoder 2 SW  | PG9      | CN7 Pin 1     |
+
+### Absolute Rotary Encoder 1-3
+
+| Element               | Chip Pin | Connector Pin |
+| --------------------- | -------- | ------------- |
+| Absolute Encoder 1 P1 | PA8      | CN12 Pin 3    |
+| Absolute Encoder 1 P2 | PB4      | CN12 Pin 5    |
+| Absolute Encoder 1 P3 | PC6      | CN12 Pin 6    |
+| Absolute Encoder 2 P1 | PA8      | CN12 Pin 7    |
+| Absolute Encoder 2 P2 | PA5      | CN12 Pin 8    |
+| Absolute Encoder 2 P3 | PC7      | CN12 Pin 11   |
+| Absolute Encoder 3 P1 | PA15     | CN12 Pin 12   |
+| Absolute Encoder 3 P2 | PB12     | CN12 Pin 13   |
+| Absolute Encoder 3 P3 | PC13     | CN12 Pin 14   |
+| Absolute Encoder 3 P4 | PC1      | CN12 Pin 15   |
